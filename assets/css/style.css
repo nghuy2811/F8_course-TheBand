@@ -27,6 +27,7 @@ html {
 }
 
 #header {
+    z-index: 1;
     position: fixed;
     top: 0;
     left: 0;
@@ -106,10 +107,35 @@ html {
 
 #slider {
     margin-top: 46px;
+    padding-top: 50%;
+    background: url(/w3s_theband/assets/img/slider/silider1.jpg) top center / cover no-repeat;
+    position: relative;
 }
 
-#content {
+#slider .text-content {
+    position: absolute;
+    color: #fff;
+    bottom: 48px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    /* width: 100%; Căn text vào giữa (Giống left = 0 right = 0 ở trên) */
+}
 
+#slider .text-heading {
+    font-weight: 500;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#slider .text-description {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+
+#content {
+    height: 500px;
 }
 
 #footer {
