@@ -22,6 +22,14 @@ html {
 4. Kiểu dáng (Kiểu chữ,...)
 */
 
+.clear {
+    clear: both;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
 #main {
 
 }
@@ -168,6 +176,64 @@ html {
     margin: 10px 0;
     text-align: justify;
     line-height: 1.5;
+}
+
+#content .member-list {
+    padding: 32px 0;
+}
+
+#content .member-list .member-item {
+    float: left;
+    /* width = calc(100% / 3); */
+    width: 33.3333%;
+    text-align: center;
+}
+
+#content .member-item .member-name {
+    padding: 15px 0;
+    font-size: 15px;
+}
+
+#content .member-list .member-img {
+    width: 154px;
+    border-radius: 4px;
+}
+
+.tour-section {
+    background-color: #000;
+}
+
+.tickets-list {
+    background-color: #fff;
+    list-style-type: none;
+}
+
+.tickets-list li {
+    color: #757575;
+    font-size: 15px;
+    padding: 11px 16px;
+    border-bottom: 1px solid #757575;  
+}
+
+.tickets-list .sold-out {
+    color: #fff;
+    background-color: #f44336;
+    padding: 3px 4px;
+    margin-left: 16px;
+}
+
+.tickets-list .quantity {
+    width: 24px;
+    height: 24px;
+    float: right;
+    background-color: #001;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 16px;
+    margin-top: -3px;
 }
 
 #footer {
