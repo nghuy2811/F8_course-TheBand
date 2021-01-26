@@ -236,6 +236,61 @@ html {
     margin-top: -3px;
 }
 
+.tour-places {
+    padding: 32px 8px;
+    margin: 0 -16px;
+}
+
+.tour-places .place-list {
+    float: left;
+    width: 33.3333%;
+    padding: 0 8px;
+}
+
+.tour-places .place-img {
+    width: 100%;
+    display: block;
+}
+
+.tour-places .place-img:hover {
+    opacity: 0.6;
+}
+
+.tour-places .places-content {
+    background-color: #fff;
+    padding: 16px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.tour-places .place-name {
+   margin-bottom: 15px;
+   font-weight: 600;
+}
+
+.tour-places .place-date {
+    margin: 15px 0;
+    opacity: 0.6;
+}
+
+.tour-places .place-desc {
+    margin: 15px 0;
+}
+
+.tour-places .buy-btn {
+    margin-bottom: 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+    display: inline-block;
+}
+
+.tour-places .buy-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
 #footer {
 
 }
