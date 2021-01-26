@@ -30,6 +30,25 @@ html {
     color: #fff !important;
 }
 
+.text-center {
+    text-align: center !important;
+}
+
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.col {
+    float: left;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.col-3 {
+    width: 33.3333%;
+}
+
 #main {
 
 }
@@ -182,13 +201,6 @@ html {
     padding: 32px 0;
 }
 
-#content .member-list .member-item {
-    float: left;
-    /* width = calc(100% / 3); */
-    width: 33.3333%;
-    text-align: center;
-}
-
 #content .member-item .member-name {
     padding: 15px 0;
     font-size: 15px;
@@ -237,14 +249,7 @@ html {
 }
 
 .tour-places {
-    padding: 32px 8px;
-    margin: 0 -16px;
-}
-
-.tour-places .place-list {
-    float: left;
-    width: 33.3333%;
-    padding: 0 8px;
+    margin-top: 32px;
 }
 
 .tour-places .place-img {
