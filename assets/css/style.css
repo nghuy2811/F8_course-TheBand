@@ -39,14 +39,36 @@ html {
     margin-right: -8px;
 }
 
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .col {
     float: left;
     padding-left: 8px;
     padding-right: 8px;
 }
 
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
 .col-3 {
     width: 33.3333%;
+}
+
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16 {
+    margin-top: 16px !important;
 }
 
 #main {
@@ -294,6 +316,43 @@ html {
 .tour-places .buy-btn:hover {
     background-color: #ccc;
     color: #000;
+}
+
+.contact-content {
+    padding: 32px 0;
+}
+
+.contact-info {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.contact-info i[class*="ti-"] {
+    display: inline-block;
+    width: 30px;
+}
+
+.contact-form {
+    font-size: 15px;
+}
+
+.contact-form .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.contact-form .form-submit-btn {
+    color: #fff;
+    background-color: #000;
+    border: none;
+    padding: 12px 18px;
+    float: right;
+}
+
+.contact-form .form-submit-btn:hover {
+    color: #000;
+    background-color: #ccc;
 }
 
 #footer {
