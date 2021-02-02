@@ -160,19 +160,34 @@ html {
     font-size: 12px;
 }
 
+#header .mobile-menu-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+#header .mobile-menu-btn,
 #header .search-btn {
     float: right;
     padding: 0 24px;
 }
 
+#header .menu-icon,
 #header .search-icon {
     color: #fff;
     line-height: 46px;
 }
-
 #header .search-btn:hover {
     cursor: pointer;
     background-color: #f44336;
+}
+
+#header .mobile-menu-btn:hover {
+    background-color: #ccc;
+}
+#header .mobile-menu-btn:hover .menu-icon {
+    color: #000;
 }
 
 #slider {
@@ -380,12 +395,4 @@ html {
 
 #footer .footer-content a {
     color: rgba(0, 0, 0, 0.6);
-}
-
-@media (min-width: 740px) and (max-width: 1023px) {
-    #content .content-section {
-        width: 100%;
-        padding-left: 16px;
-        padding-right: 16px;
-    }
 }
