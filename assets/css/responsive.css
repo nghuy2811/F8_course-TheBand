@@ -58,4 +58,21 @@
         padding-left: 16px;
         padding-right: 16px;
     }
+
+    #content .member-item {
+        width: 100%;
+    }
+
+    #content .member-list .member-name {
+        margin-top: 15px;
+    }
+
+    #content .member-list .member-img {
+        margin-bottom: 16px;
+        width: 60%;
+    }
+
+    .tour-places .place-list {
+        width: 100%;
+    }
 }
